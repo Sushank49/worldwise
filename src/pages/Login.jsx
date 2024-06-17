@@ -9,8 +9,8 @@ export default function Login() {
   const { login, isAuthenticated } = useAuth();
   const navigate = useNavigate();
   // PRE-FILL FOR DEV PURPOSES
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("jack@example.com");
+  const [password, setPassword] = useState("qwerty");
 
   useEffect(
     function () {
